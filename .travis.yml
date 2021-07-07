@@ -5,7 +5,7 @@ services:
 env:
   - NPM_TARGET=test
   - NPM_TARGET=lint
-  - NPM_TARGET=converage
+  - NPM_TARGET=coverage
 
 before_install:
   - docker pull node:8-onbuild
